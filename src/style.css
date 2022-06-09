@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+body {
+  font-family: 'DM Sans';
+  min-height: 100vh;
+  width: 100%;
+  background: #f7e9dc;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-weight: 400;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.card {
+  border: 2px solid black;
+  padding: 10px 20px;
+  border-radius: 5%;
+  height: 50%;
+  width: 75%;
+  background-color: #faf9f6;
+}
+
+.my-balance {
+  border: 2px solid black;
+  padding: 0px 20px;
+  border-radius: 5%;
+  height: 50%;
+  width: 75%;
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+svg {
+  align-items: right;
+}
+
+.week-spending {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.week-left {
+  text-align: left;
+  align-items: left;
+}
+
+.week-right {
+  text-align: right;
+  align-items: right;
+}
