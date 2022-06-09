@@ -36,7 +36,7 @@ const BarChart = () => {
         borderWidth: 1
     }]
 },
-var options = {
+options = {
   scales: {
     y: {
       beginAtZero: true,
